@@ -18,7 +18,7 @@ import os
 
 import torch
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', '/home/sanan/catkin_ws/src/UCAT_UUV/ucat_autonomy/scripts/best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', '/best.pt')
 
 
 class DiverTracking:
